@@ -59,14 +59,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         int durada=1;
         String missatge="";
-        if (view.getId() == R.id.button) {
+        if (view.getId()==R.id.button) {
             missatge=("Primer Boto Okey");
             durada= Toast.LENGTH_SHORT;
 
 
         } else if (view.getId() == R.id.button2) {
             missatge=("Primer Boto Okey");
-            durada= Toast.LENGTH_SHORT;
+            durada= Toast.LENGTH_LONG;
         }
         missatge= missatge +"durada" +durada;
     }
