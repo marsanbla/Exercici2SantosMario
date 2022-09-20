@@ -1,17 +1,12 @@
 package com.example.exercici2santosmario;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView text;
@@ -64,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             durada= Toast.LENGTH_SHORT;
 
 
-        } else if (view.getId() == R.id.button2) {
-            missatge=("Primer Boto Okey");
+        } else {
+            missatge=("Segon Boto Okey");
             durada= Toast.LENGTH_LONG;
         }
         missatge= missatge +"durada" +durada;
